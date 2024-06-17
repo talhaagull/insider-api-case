@@ -52,6 +52,10 @@ Individual test files for each CRUD operation are located in the `cypress/e2e/te
 - **Post Image Test (`postImage.cy.js`):** Tests uploading an image to a pet with both valid and invalid data.
 - **Update Pet Test (`updatePet.cy.js`):** Tests updating pet information with both valid and invalid data.
 
+## Fixtures
+
+Test data for the API tests is stored in the `cypress/e2e/fixtures` directory.
+
 ## Reporting
 
 The project uses `cypress-mochawesome-reporter` for generating test reports. After running the tests, you can view the report by running:
