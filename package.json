@@ -1,0 +1,17 @@
+{
+  "name": "insider-api-case",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "open-report": "open cypress/reports/html/index.html"
+  },
+  "keywords": [],
+  "author": "talha gül",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.11.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}

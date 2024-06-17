@@ -1,0 +1,29 @@
+{
+    "petData" : {
+        "id": 1,
+        "name": "Doggie",
+        "category": {
+            "id": 1,
+            "name": "Dogs"
+        },
+        "status": "available"
+    },
+    "updatedPetData": {
+        "id" : 99,
+        "name": "Updated Doggie",
+        "category" : {
+          "id" : 33,
+          "name" : "Cats"
+        },
+        "status": "not available"
+    },
+    "invalidPetData" : {
+        "id": "test",
+        "name": "Cookie",
+        "category": {
+            "id": -1,
+            "name": "Animals"
+        },
+        "status": 2
+    }
+}
